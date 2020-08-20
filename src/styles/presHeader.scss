@@ -17,8 +17,8 @@
     border-radius: 10px;
     overflow: hidden;
     z-index: 1;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     text-align: center;
     display: flex;
     align-content: center;
@@ -27,8 +27,10 @@
   .disclaimContain {
     width: 600px;
     height: 600px;
-    background: radial-gradient(#740ab1b0, rgba(229, 193, 142, 0.75));
-    border: 2px solid #000;
+    background: rgb(156,0,255);
+    background: radial-gradient(circle, rgba(156,0,255,1) 0%, rgba(157,131,101,0) 81%);
+    // background: radial-gradient(#740ab1b0, rgba(229, 193, 142, 0));
+    // border: 2px solid #000;
     display: flex;
     align-items: center;
     justify-content: center;
