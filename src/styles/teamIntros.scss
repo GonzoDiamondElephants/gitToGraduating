@@ -1,0 +1,74 @@
+.intros {
+    background: url(https://images.ctfassets.net/usf1vwtuqyxm/FguKzCQXYbXvJMS27FKqZ/5a936f1febc6e5767626c1831ded406a/USH_Hogwarts2_VB.jpg) no-repeat center
+    center fixed;
+    background-size: cover;
+    opacity: .9;
+    }
+    
+    .teamPics {
+      opacity: 1;
+    }
+    
+    #sian, #henok, #randee {
+      transition: all .2s ease-in-out;
+    }
+    
+    .goatOne {
+      height: 60px;
+      bottom: 0;
+      margin-bottom: -60px;
+      margin-left: -90px;
+      display: relative;
+      transform: rotate(45deg);
+    }
+    
+    #henok {
+      height: 250px;
+      grid-area: henok;
+      // background-color: orange;
+      margin-bottom: -40px;
+    }
+    #sian {
+      height: 260px;
+      grid-area: sian;
+      // background-color: yellow;
+      margin-left: -70px;
+    }
+    
+    #randee {
+      height: 185px;
+      grid-area: randee;
+      // background-color: red;
+      margin-bottom: -80px;
+    }
+    
+    .imgContainer {
+      transition: all .2s ease-in-out;
+      display: grid;
+      margin: 0px auto;
+      grid-template-columns: 100px 100px 100px 100px;
+      grid-template-rows: auto;
+      justify-content: center;
+      grid-template-areas: 
+        "henok . . . "
+        ". . . randee"
+        "sian . . . "
+    ;
+    }
+    
+    .spacing {
+      width: 100%;
+      height: 100px;
+    }
+    
+    #sian:hover{
+      transform: scale(1.5);
+    }
+    
+    #henok:hover{
+      transform: scale(1.3);
+    }
+    
+    #randee:hover{
+      transform: scale(1.4);
+    }

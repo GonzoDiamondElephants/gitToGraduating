@@ -1,0 +1,28 @@
+#weasleyBros {
+    width: 200px;
+    bottom: 0;
+    float: right;
+    margin-top: 700px;
+  }
+  
+  .player {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+  
+    display: flex;
+    align-content: center;
+  }
+  
+  .paper {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(#250a0ab0, rgba(229, 193, 142, 0.75));
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

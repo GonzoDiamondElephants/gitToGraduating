@@ -1,0 +1,35 @@
+
+.presHeader {
+    font-size: 7vw;
+    margin-bottom:-100px;
+    padding: 0;
+  }
+  .snitch {
+    text-align: center;
+  }
+  
+  #goldenRule {
+    height: 350px;
+    margin: 0;
+  }
+  
+  .ePlayer {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+  }
+  
+  .disclaimContain {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(#740ab1b0, rgba(229, 193, 142, 0.75));
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

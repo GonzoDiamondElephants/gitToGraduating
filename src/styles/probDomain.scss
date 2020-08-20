@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.envelope {
+	width: 600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+    margin-bottom: 300px;
+}
+
+.urgent {
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+}
+
+
+.problemDomain {
+    text-align: center;
+  justify-content: center;
+    display: flex;
+    align-content: center;
+	// margin-top: 875px;
+	// margin-left: 0;
+//   .block{
+// 	height: 90vh;
+// 	width: 100wv;
+//   position: relative;
+  
+  
+	&::after {
+		background: repeating-linear-gradient(45deg, #fff , #fff 10px, #3C7AB8 0, #3C7AB8 20px, #fff 0, #fff 30px, #CB2C4B 0, #CB2C4B 40px);
+		position: relative;
+		// top: 0;
+		// left: 0;
+		height: 600px;
+		width: 600px;
+		content: "";
+    z-index: 0;
+  }
+	&::before{
+			background-image: url(https://images.unsplash.com/photo-1586074299757-dc655f18518c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+					opacity: 1;
+			position: absolute;
+			margin-top: 10px;
+            // left: 10px;
+			height: calc(600px - 20px);
+			width: calc(600px - 20px);
+			font-family: 'Gloria Hallelujah', cursive;
+			text-align: center;
+			z-index: 1;
+			font-size: 1.75em;
+			border-radius: 20px;
+            content: "Team Gonzo Diamond Elephant, 
+            
+            times are dire and I need your help - I know that normally this is the time where you would be talking about your Problem Domain, but there are bigger problems afoot        I’ll be happy to tell you more in person, but I fear it's not safe to reveal my hiding spot - so you'll need to use your marauder’s map to find me -
+			
+			Signed,
+			George Weasley";
+  }
+}
+// }
+
+
+

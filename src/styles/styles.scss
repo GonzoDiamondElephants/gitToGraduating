@@ -1,0 +1,31 @@
+html {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1478744919174-118dbd24973e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+  }
+  
+  .opps, .strengths, .stretchGoals, .intros, .demo  {
+    opacity: .75;
+    margin-left:10%;
+    width: 80%;
+    min-width: 850px;
+    overflow: hidden;
+    height: 900px;
+    margin-bottom:100px;
+  }
+  .opps{
+    opacity: 1;
+  }
+  
+  //.problemDomain,
+  
+  
+  
+  
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+  }
